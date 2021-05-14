@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+
+    <body>
+        <div class="general" id="header">
+            <h1>Global Solutions SAS</h1>
+            <input id="descriTarea" placeholder="Descripción de la tarea" type="text">
+            <button id="btnNuevaTarea">Nueva Tarea</button>
+        </div>
+        <div class="general" id="fullContainer">
+            <div class="tasksContainer" id="toDo">
+                <div id="tituloToDo">
+                    <h3>To Do</h3>
+                </div>
+                <div id="toDoContainer">
+                    <!-- Espacio para las tareas-->
+                </div>
+            </div>
+            <div class="tasksContainer" id="doing">
+                <div id="tituloDoing">
+                    <h3>Doing</h3>
+                </div>
+                <div id="doingContainer">
+                    <!-- Espacio para las tareas-->
+                </div>
+            </div>
+            <div class="tasksContainer" id="done">
+                <div id="tituloDone">
+                    <h3>Done</h3>
+                </div>
+                <div id="doneContainer">
+                    <!-- Espacio para las tareas-->
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBm_AXVnFt7jtMX6Ku91m7WqUmhFFJzHwM",
+    authDomain: "quiz02-deba4.firebaseapp.com",
+    projectId: "quiz02-deba4",
+    storageBucket: "quiz02-deba4.appspot.com",
+    messagingSenderId: "355291147472",
+    appId: "1:355291147472:web:4c598f4222804dc63142d5"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <script>const database = firebase.database();  </script>
+
+    <script src="JS/tasks.js"></script>
+    <script src="JS/index.js"></script>
+
+</html>

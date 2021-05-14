@@ -1,0 +1,75 @@
+.general{
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+#btnNuevaTarea{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 4px;
+}
+#descriTarea{
+    width: 60%;
+}
+#fullContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.tasksContainer{
+    margin: auto;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3%;
+    padding: 10px;
+    background-color: blueviolet;
+    width: 25%;
+    border-radius: 5px;
+    color: white;
+}
+
+.taskContainer {
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid white;
+    width: 100%;
+
+}
+
+.dateElement{
+    color: grey;
+    font-size: 11px;
+}
+
+.btnAnteriorr{
+    background-color: salmon ;
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+    border-radius: 1rem;
+    padding: 8px;
+    float: right;
+}
+.btnSiguientee{
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+    border-radius: 1rem;
+    padding: 8px;
+    float: right;
+}
+.btnEliminarr{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+    border-radius: 1rem;
+    padding: 8px;
+    
+    
+}
